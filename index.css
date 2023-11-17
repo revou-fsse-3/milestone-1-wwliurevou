@@ -1,0 +1,349 @@
+
+/*Nav Bar*/
+nav{
+    
+    background-color: white;
+    width: 100%;
+    display: inline;
+    float: left;    
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    border-bottom: 2px solid #222222;
+}
+nav>ul {
+    margin-left: auto;
+    margin-right: 16px;
+  }
+  nav>ul>li {
+    display:inline
+  }
+
+/*Header*/
+section {
+    margin: 0% 0%
+  }
+#BestSeller,#ourProducts,#ShippingAndReturn{
+  background-color: #fff;
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
+}
+
+@keyframes  random {
+  15% { background-color: #cbaacb; } 
+  30% { background-color: #f3b0c3; } 
+  45% { background-color: #fee1e8; } 
+  60% { background-color: #ffc5bf; }
+  75% { background-color: #ecd5e3; }  
+}
+/* PRODUCTS */
+/* Basic styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #212121;
+    margin: 10px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1,
+  h2 {
+    font-weight: normal;
+    border-bottom: 1px dotted #bdbdbd;
+    padding-bottom: 2px;
+    display: inline-block;
+  }
+  
+  .bg-red {
+    background-color: #ff5252 !important;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  /* Slider styles */
+  
+  .slider-container {
+    padding: 10px 0;
+    background-color:white;
+    max-height: 50%;
+  }
+  
+  .slides-wrapper {
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    padding: 0 10px;
+  }
+  
+  .slider-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    transition: 1s;
+    max-height: calc(100vh - 80px);
+  }
+  
+  .slider-item {
+    background-color: #bdbdbd;
+    margin: 0 16px -4px 0;
+    min-height: 150px;
+  }
+  
+  .slider-item img {
+    width: 100%;
+    transition: 0.5s;
+  }
+  .slider-item img:hover {
+    scale: 1.2;
+  }
+  
+  .slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  
+  .slider-arrow-prev,
+  .slider-arrow-next {
+    border: none;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .slider-arrow-prev:hover,
+  .slider-arrow-next:hover {
+    background-color: #eeeeee;
+  }
+/*<section id="Our Products">*/
+/*------------------STICKER-----------*/
+#macbookSticker{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+}
+.content7{
+    text-align: center;
+    padding-left: 15%;
+
+}
+#ourProducts {
+    display: inline-flex;
+    flex-direction: column   
+}
+
+.casing7{
+    max-width: 500px;
+    max-height: fit-content;
+}
+
+.content7{
+  /* text-align: justify; */
+  align-content: center;
+  padding-right: 120px;
+}
+.macbooksticker{
+  text-align: center;
+}
+/* .content7 h2 {
+    color: #474747;
+    text-shadow: none;
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  
+  .content7 p {
+    font-family: candara;
+    color: #474747;
+    font-size: 20px;
+    padding-left: 20%;
+  } */
+  
+
+
+/*.container7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+
+#macbookSticker{
+    padding-left: 0%;
+}
+
+.casing7 {
+      float: left;
+      max-width: 50%;
+      max-height: fit-content;
+      ;
+    }
+.stickerDetails{
+    font-size: 20px;
+    padding-top: 0%;
+    float: left;
+    text-align: center;
+    padding-right: 5%;
+}
+*/
+
+  
+/*-------------------CASING----------------------*/
+#macbookCase{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+}
+.content8{
+    text-align: center;
+    padding-right:7%;
+
+}
+
+.content8 h2 {
+    color: #474747;
+    text-shadow: none;
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  
+  .content8 p {
+    font-family: candara;
+    color: #474747;
+    font-size: 20px;
+    padding-left: 20%;
+  }
+
+.casing6{
+    max-width: 50%;
+    max-height: fit-content;
+}
+/*------------LAPTOP BAG-----------------------------*/
+#laptopBag{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+}
+.content9{
+    text-align: center;
+    /* padding-left: 15%; */
+    /* padding-right: 100px; */
+}
+
+.casing5{
+    max-width: 50%;
+    max-height: fit-content;
+}
+.content9 h2 {
+    color: #474747;
+    text-shadow: none;
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  
+  .content9 p {
+    font-family: candara;
+    color: #474747;
+    font-size: 20px;
+    padding-left: 100px;
+    text-align: center;
+
+  }
+  
+/*-----------------------------------------*/
+/*<section id="Details">*/
+/*<section id="ShippingAndReturn">*/
+#ShippingAndReturn{
+    text-align: center;
+}
+.shipAndreturn{
+  text-align: center;
+  font-size: 40px;
+
+}
+/*<section id="Contact Us">*/
+
+/*<section id="aboutus">*/
+#aboutUs{
+    text-align: center;
+}
+.xoxo{
+    text-align: right;
+}
+/*<section id="subscribe">*/
+#subscribe{
+   
+    background-color: white;
+    text-align: center;
+    word-spacing: 3%;
+}
+#ContactUs{
+  text-align: center;
+  
+}
+
+input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+    input[type=submit] {
+        background-color: black;
+        color: white;
+        border: none;
+      }
+
+/*Footer*/
+
+footer {
+    grid-area: footer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    background: black;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+
+
+  #bestSellerTitle{
+    text-align: center;
+    font-size: 40px;
+    
+  }
