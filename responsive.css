@@ -1,17 +1,15 @@
-.mobile {
-    display: none;
+@media screen and (min-width:530px) {
+  .slider-list{
+
+  display: flex;
+  
+  }
+
 }
 
-.desktop {
-    display: block;
-}
-
-@media only screen and (max-width: 1023px) {
-    .mobile {
-        display: block;
-    } 
-
-    .desktop {
-        display: none;
-    }
+@media screen and (max-width:530px) {
+  h1{
+    font-size: 120%;
+  }
+  
 }
